@@ -1,6 +1,6 @@
 # Habits tracking app
 
-## Features
+## Features 📝
 * Add a habit you want to track
 * They should just be daily habits
 * Tap on the habit card to increment habit
@@ -17,13 +17,13 @@
   * Every habit will have a category icon
 * Eventually there should be a graph showing weekly/monthly/yearly progress
 
-## Considerations 
+## Considerations 🤔
 * Need to find a way to reset habits at a day 
   * Maybe, find the users location and reset the habit to 0 at 23:59:99
   * If the habit goal was reached, then add to the cumulative counter
 * When you sign in - either the app asks for your location/timezone or you get it from google (if thats a thing)
 
-## Tools
+## Tools 🛠️
 ### Front end
 * Web - typescript react, context for state,  apollo client
 * Mobile - react native
